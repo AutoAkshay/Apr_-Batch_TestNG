@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24196" started-at="2022-06-20T22:58:14 IST" finished-at="2022-06-20T22:58:38 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24196" started-at="2022-06-20T22:58:14 IST" finished-at="2022-06-20T22:58:38 IST">
+      <class name="com.selenium.keyworddriven.FixedDeposit_Test">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="preCondition" is-config="true" duration-ms="4114" started-at="2022-06-20T22:58:14 IST" finished-at="2022-06-20T22:58:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="fd_1lakh()[pri:0, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="fd_1lakh" duration-ms="14664" started-at="2022-06-20T22:58:18 IST" description="validate fixed deposit for 1 lakh" finished-at="2022-06-20T22:58:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fd_1lakh -->
+        <test-method status="PASS" signature="fd_4lakh()[pri:1, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="fd_4lakh" duration-ms="5233" started-at="2022-06-20T22:58:33 IST" description="validate fixed deposit for 4 lakh" finished-at="2022-06-20T22:58:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fd_4lakh -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="postCondition" is-config="true" duration-ms="66" started-at="2022-06-20T22:58:38 IST" finished-at="2022-06-20T22:58:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.selenium.keyworddriven.FixedDeposit_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

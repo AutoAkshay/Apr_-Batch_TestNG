@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Login_Suite]" parallel="tests">
+  <test thread-count="4" verbose="4" name="Test - OrangeHRM Login(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.testing.OrangeHRM">
+        <methods>
+          <include name="preCoonditionBeforeTestExecution"/>
+          <include name="LoginAdminUser"/>
+          <include name="postCoonditionAfterTestExecution"/>
+        </methods>
+      </class> <!-- com.selenium.testing.OrangeHRM -->
+    </classes>
+  </test> <!-- Test - OrangeHRM Login(failed) -->
+</suite> <!-- Failed suite [Login_Suite] -->
