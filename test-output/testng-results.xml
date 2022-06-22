@@ -1,29 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24196" started-at="2022-06-20T22:58:14 IST" finished-at="2022-06-20T22:58:38 IST">
+  <suite name="Default suite" duration-ms="42957" started-at="2022-06-21T15:20:19 IST" finished-at="2022-06-21T15:21:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24196" started-at="2022-06-20T22:58:14 IST" finished-at="2022-06-20T22:58:38 IST">
-      <class name="com.selenium.keyworddriven.FixedDeposit_Test">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="preCondition" is-config="true" duration-ms="4114" started-at="2022-06-20T22:58:14 IST" finished-at="2022-06-20T22:58:18 IST">
+    <test name="Default test" duration-ms="42957" started-at="2022-06-21T15:20:19 IST" finished-at="2022-06-21T15:21:02 IST">
+      <class name="com.selenium.basictest.Practice_Part_1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.basictest.Practice_Part_1@262b2c86]" name="beforeTest" is-config="true" duration-ms="5236" started-at="2022-06-21T15:20:19 IST" finished-at="2022-06-21T15:20:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="fd_1lakh()[pri:0, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="fd_1lakh" duration-ms="14664" started-at="2022-06-20T22:58:18 IST" description="validate fixed deposit for 1 lakh" finished-at="2022-06-20T22:58:33 IST">
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="Code_For_Alert_Test()[pri:0, instance:com.selenium.basictest.Practice_Part_1@262b2c86]" name="Code_For_Alert_Test" duration-ms="36233" started-at="2022-06-21T15:20:25 IST" finished-at="2022-06-21T15:21:01 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Not Contain expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Not Contain expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.selenium.basictest.Practice_Part_1.Code_For_Alert_Test(Practice_Part_1.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fd_1lakh -->
-        <test-method status="PASS" signature="fd_4lakh()[pri:1, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="fd_4lakh" duration-ms="5233" started-at="2022-06-20T22:58:33 IST" description="validate fixed deposit for 4 lakh" finished-at="2022-06-20T22:58:38 IST">
+        </test-method> <!-- Code_For_Alert_Test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.basictest.Practice_Part_1@262b2c86]" name="afterTest" is-config="true" duration-ms="1338" started-at="2022-06-21T15:21:01 IST" finished-at="2022-06-21T15:21:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fd_4lakh -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.selenium.keyworddriven.FixedDeposit_Test@42d8062c]" name="postCondition" is-config="true" duration-ms="66" started-at="2022-06-20T22:58:38 IST" finished-at="2022-06-20T22:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- com.selenium.keyworddriven.FixedDeposit_Test -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.basictest.Practice_Part_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
